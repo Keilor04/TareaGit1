@@ -1,1 +1,93 @@
 <h1>TareaGit1</h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Ejemplos básicos de cuadriculas</h1>
+        <h3>Ejemplo 1: Una columna que ocupa todo el ancho (12 columnas)</h3>
+        <!-- Se agrega la clase row para que las columnas vayan en fila, sino van en columnas y un mb-4 que es un margin bottom tipo 4 -->
+        <div class="row mb-4">
+            <!-- <!-- bg-primary es para que el texto tenga un background azul=primary-->
+            <!-- Text-white para texto color blanco y center para centrar el texto, col-12 es para que el texto ocupe el 100% del ancho -->
+            <div class="bg-primary text-white text-center col-12">Columna de 12 espacios</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center mb-4">Ejemplo 2: Diseña una fila con dos columnas de igual tamaño, donde cada una ocupe 6
+            columnas.</h3>
+        <div class="row mb-4">
+            <div class="bg-primary text-black text-center col-6">Columna de 6 espacios</div>
+            <div class="bg-success text-black text-center col-6">Columna de 6 espacios</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center mb-4">Ejemplo 3: Diseña una fila con tres columnas iguales, donde cada una ocupe 4
+            columnas.</h3>
+        <div class="row mb-4">
+            <div class="bg-primary text-black text-center col-4">Columna de 4 espacios</div>
+            <div class="bg-success text-black text-center col-4">Columna de 4 espacios</div>
+            <div class="bg-secondary text-black text-center col-4">Columna de 4 espacios</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center mb-4">Ejemplo 4: Crea una fila con columnas de tamaños desiguales: la primera columna
+            ocupa 3 columnas, la segunda ocupa 6 columnas, y la última ocupa 3 columnas.</h3>
+        <div class="row mb-4">
+            <div class="bg-primary text-black text-center col-3">Columna de 3 espacios</div>
+            <div class="bg-secondary text-black text-center col-6">Columna de 6 espacios</div>
+            <div class="bg-warning text-black text-center col-3">Columna de 3 espacios</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="text-center mb-4">Ejemplo 5: Configura columnas que cambien su tamaño según el dispositivo:
+            <ul class="text-justify"><br>
+                <li class="list-unstyled">En dispositivos pequeños (sm): las columnas deben ser apiladas (ocupan 12
+                    columnas cada una).</li><br>
+                <li class="list-unstyled">En dispositivos medianos (md): cada columna debe ocupar 4 columnas.</li><br>
+                <li class="list-unstyled">En dispositivos grandes (lg): distribuye las columnas en tamaños desiguales
+                    (3, 6, y 3 columnas).
+                </li>
+            </ul>
+        </h3>
+        <div class=" row mb-4">
+            <!-- Para el ancho total de pantalla en compu es col-lg, tablet col-md y para que se adapte a un celular es col-sm-12 -->
+            <div class="bg-secondary text-white text text-center col-sm-12 col-md-4 col-lg-3">Columna de espacio de
+                tamaño
+                variable</div>
+            <div class="bg-primary text-white text text-center col-sm-12 col-md-4 col-lg-6">Columna de espacio de tamaño
+                variable</div>
+            <div class="bg-success text-white text text-center col-sm-12 col-md-4 col-lg-3">Columna de espacio de tamaño
+                variable</div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
